@@ -8,20 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		B69442391EF85F0D00600371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442381EF85F0D00600371 /* AppDelegate.swift */; };
-		B694423B1EF85F0D00600371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694423A1EF85F0D00600371 /* ViewController.swift */; };
 		B694423E1EF85F0D00600371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694423C1EF85F0D00600371 /* Main.storyboard */; };
 		B69442401EF85F0D00600371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B694423F1EF85F0D00600371 /* Assets.xcassets */; };
 		B69442431EF85F0D00600371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69442411EF85F0D00600371 /* LaunchScreen.storyboard */; };
+		B694424C1EF8605100600371 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694424B1EF8605100600371 /* PostListTableViewController.swift */; };
+		B69442531EF860EC00600371 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442521EF860EC00600371 /* PostDetailTableViewController.swift */; };
+		B69442551EF8616700600371 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442541EF8616700600371 /* AddPostTableViewController.swift */; };
+		B69442571EF8620000600371 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442561EF8620000600371 /* SearchResultsTableViewController.swift */; };
+		B69442591EF863DD00600371 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442581EF863DD00600371 /* Post.swift */; };
+		B694425D1EF8662A00600371 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694425C1EF8662A00600371 /* Comment.swift */; };
+		B694425F1EF8676E00600371 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694425E1EF8676E00600371 /* PostController.swift */; };
+		B69442611EF86C4B00600371 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442601EF86C4B00600371 /* PostTableViewCell.swift */; };
+		B69442641EF88DAD00600371 /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442631EF88DAD00600371 /* SearchableRecord.swift */; };
+		B69442661EF8B54500600371 /* PhotoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442651EF8B54500600371 /* PhotoSelectViewController.swift */; };
+		B694426A1EF9AD8A00600371 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69442691EF9AD8A00600371 /* CloudKitManager.swift */; };
+		B694426C1EF9C6E300600371 /* CloudKitSyncable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694426B1EF9C6E300600371 /* CloudKitSyncable.swift */; };
+		B69442991EFB586200600371 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69442981EFB586200600371 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B69442351EF85F0C00600371 /* Timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69442381EF85F0D00600371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B694423A1EF85F0D00600371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B694423D1EF85F0D00600371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B694423F1EF85F0D00600371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B69442421EF85F0D00600371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B69442441EF85F0D00600371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B694424A1EF85F3700600371 /* Timeline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Timeline.entitlements; sourceTree = "<group>"; };
+		B694424B1EF8605100600371 /* PostListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		B69442521EF860EC00600371 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		B69442541EF8616700600371 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
+		B69442561EF8620000600371 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		B69442581EF863DD00600371 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B694425C1EF8662A00600371 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		B694425E1EF8676E00600371 /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		B69442601EF86C4B00600371 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		B69442631EF88DAD00600371 /* SearchableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
+		B69442651EF8B54500600371 /* PhotoSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectViewController.swift; sourceTree = "<group>"; };
+		B69442691EF9AD8A00600371 /* CloudKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		B694426B1EF9C6E300600371 /* CloudKitSyncable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitSyncable.swift; sourceTree = "<group>"; };
+		B69442981EFB586200600371 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69442991EFB586200600371 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,7 @@
 			children = (
 				B69442371EF85F0D00600371 /* Timeline */,
 				B69442361EF85F0C00600371 /* Products */,
+				B69442971EFB586200600371 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,90 @@
 		B69442371EF85F0D00600371 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
-				B69442381EF85F0D00600371 /* AppDelegate.swift */,
-				B694423A1EF85F0D00600371 /* ViewController.swift */,
-				B694423C1EF85F0D00600371 /* Main.storyboard */,
-				B694423F1EF85F0D00600371 /* Assets.xcassets */,
-				B69442411EF85F0D00600371 /* LaunchScreen.storyboard */,
-				B69442441EF85F0D00600371 /* Info.plist */,
+				B694426E1EF9C76A00600371 /* Protocols */,
+				B69442621EF86C4E00600371 /* View */,
+				B69442501EF8607600600371 /* Model Controller */,
+				B694424F1EF8607100600371 /* Models */,
+				B694424E1EF8606600600371 /* Resources */,
+				B69442511EF8608400600371 /* View Controller */,
+				B694424D1EF8605700600371 /* Storyboards */,
 			);
 			path = Timeline;
+			sourceTree = "<group>";
+		};
+		B694424D1EF8605700600371 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B694423C1EF85F0D00600371 /* Main.storyboard */,
+				B69442411EF85F0D00600371 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B694424E1EF8606600600371 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B69442691EF9AD8A00600371 /* CloudKitManager.swift */,
+				B69442631EF88DAD00600371 /* SearchableRecord.swift */,
+				B69442381EF85F0D00600371 /* AppDelegate.swift */,
+				B694424A1EF85F3700600371 /* Timeline.entitlements */,
+				B694423F1EF85F0D00600371 /* Assets.xcassets */,
+				B69442441EF85F0D00600371 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B694424F1EF8607100600371 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B694425C1EF8662A00600371 /* Comment.swift */,
+				B69442581EF863DD00600371 /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B69442501EF8607600600371 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B694425E1EF8676E00600371 /* PostController.swift */,
+			);
+			name = "Model Controller";
+			sourceTree = "<group>";
+		};
+		B69442511EF8608400600371 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B69442561EF8620000600371 /* SearchResultsTableViewController.swift */,
+				B69442541EF8616700600371 /* AddPostTableViewController.swift */,
+				B69442521EF860EC00600371 /* PostDetailTableViewController.swift */,
+				B694424B1EF8605100600371 /* PostListTableViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		B69442621EF86C4E00600371 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B69442601EF86C4B00600371 /* PostTableViewCell.swift */,
+				B69442651EF8B54500600371 /* PhotoSelectViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B694426E1EF9C76A00600371 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B694426B1EF9C6E300600371 /* CloudKitSyncable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		B69442971EFB586200600371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B69442981EFB586200600371 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,8 +199,16 @@
 				TargetAttributes = {
 					B69442341EF85F0C00600371 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = X458A5BXZ4;
+						DevelopmentTeam = F83BXD8Z2Y;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -137,8 +248,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B694423B1EF85F0D00600371 /* ViewController.swift in Sources */,
+				B69442641EF88DAD00600371 /* SearchableRecord.swift in Sources */,
 				B69442391EF85F0D00600371 /* AppDelegate.swift in Sources */,
+				B694426A1EF9AD8A00600371 /* CloudKitManager.swift in Sources */,
+				B694425F1EF8676E00600371 /* PostController.swift in Sources */,
+				B694426C1EF9C6E300600371 /* CloudKitSyncable.swift in Sources */,
+				B694424C1EF8605100600371 /* PostListTableViewController.swift in Sources */,
+				B69442571EF8620000600371 /* SearchResultsTableViewController.swift in Sources */,
+				B694425D1EF8662A00600371 /* Comment.swift in Sources */,
+				B69442661EF8B54500600371 /* PhotoSelectViewController.swift in Sources */,
+				B69442591EF863DD00600371 /* Post.swift in Sources */,
+				B69442551EF8616700600371 /* AddPostTableViewController.swift in Sources */,
+				B69442531EF860EC00600371 /* PostDetailTableViewController.swift in Sources */,
+				B69442611EF86C4B00600371 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +385,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X458A5BXZ4;
+				CODE_SIGN_ENTITLEMENTS = Timeline/Timeline.entitlements;
+				DEVELOPMENT_TEAM = F83BXD8Z2Y;
 				INFOPLIST_FILE = Timeline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.collincannavo.Timeline;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.collin-cannavo.Timeline";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,10 +399,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X458A5BXZ4;
+				CODE_SIGN_ENTITLEMENTS = Timeline/Timeline.entitlements;
+				DEVELOPMENT_TEAM = F83BXD8Z2Y;
 				INFOPLIST_FILE = Timeline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.collincannavo.Timeline;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.collin-cannavo.Timeline";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
